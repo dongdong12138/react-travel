@@ -1,12 +1,25 @@
 import React from 'react';
+import { Row, Col } from 'antd';
 import styles from './App.module.css';
-import { TopHeader, Header, Footer } from './components';
+import { TopHeader, Header, Footer, SideMenu, Carousel } from './components';
 
 function App() {
   return (
       <div className={styles.App}>
         <TopHeader />
         <Header />
+
+        <div className={styles["page-content"]}>
+          <Row style={{ marginTop: 20 }}>
+            <Col span={6} style={{ height: 200 }}>
+              <SideMenu />
+            </Col>
+            <Col span={18}>
+              <Carousel />
+            </Col>
+          </Row>
+        </div>
+
         <Footer />
       </div>
   );

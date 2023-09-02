@@ -1,5 +1,7 @@
 import TopHeader from './TopHeader/TopHeader';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
+import SideMenu from './SideMenu/SideMenu';
+import Carousel from './Carousel/Carousel';
 
-export { TopHeader, Header, Footer };
+export { TopHeader, Header, Footer, SideMenu, Carousel };
