@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col, Typography } from 'antd';
 
 import styles from './App.module.css';
-import { TopHeader, Header, Footer, SideMenu, Carousel, ProductCollection } from './components';
+import { TopHeader, Header, Footer, SideMenu, Carousel, ProductCollection, BusinessPartners } from './components';
 import { productList1, productList2, productList3 } from './mockup';
 import sideImage from './assets/images/sider_2019_12-09.png';
 import sideImage2 from './assets/images/sider_2019_02-04.png';
@@ -40,6 +40,8 @@ function App() {
               sideImage={sideImage3}
               products={productList3}
           />
+
+          <BusinessPartners />
 
         </div>
 
