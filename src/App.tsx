@@ -1,8 +1,6 @@
 import React from 'react';
 import styles from './App.module.css';
-import TopHeader from './components/TopHeader/TopHeader';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import { TopHeader, Header, Footer } from './components';
 
 function App() {
   return (
